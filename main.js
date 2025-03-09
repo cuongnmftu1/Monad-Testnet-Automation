@@ -62,9 +62,6 @@ class Application {
 
       const services = {
         deploy: { name: "Deploy", service: DeployService },
-        monorail: { name: "Monorail", service: MonorailService, address: config.contracts.monorail.router },
-        rubicSwap: { name: "Rubic Swap", service: SwapService },
-        izumiSwap: { name: "Izumi Swap", service: SwapService },
         uniswap: {
           name: "Uniswap",
           service: UniswapService,
